@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Primer pagina web</title>
+        <meta name="description" content="Esta es mi primer pagina web"/>
+        <meta name="author" content="Fazt"/>
+        <meta name="Keywords" content="Mi primer titulo, mi primer pagina, pagina web">
+
+         <style>
+            #cabecera{background: red;color:white}
+           .colorAgua{background: turquoise;}
+            footer{background: blue;} 
+            blockquote[cite]{background: red;}
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Mi Blog</h1>
+        </header>
+        
+        <nav>
+            <ul>
+                <li>Principal</li>
+                <li>Ayuda</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+
+        <section>
+            <article>
+                <hgroup>
+                    <h2>Titulo articulo 1</h1>
+                    <h1>Subtitulo del primer articulo</h2>
+                </hgroup>
+                
+                <time datetime="06-08-2021">Publicado 06-08-2021</time>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <small> mi nombre es Hildelbrando Correa</small>
+                    <cite>tengo 20 años y soy ingeniero de sistemas</cite>, voluptatem qui corrupti?
+                    <span> Codigo que puede se modicado o alterado por CSS</span> consectetur iure nihil aut, dicta cupiditate.
+                </p>
+
+                    <img src="Imagenes/Yo.jpeg"/>
+                    <img src="https://scontent.fbog11-1.fna.fbcdn.net/v/t1.6435-9/221614589_2980720572198505_7234261378927865909_n.jpg?_nc_cat=105&ccb=1-4&_nc_sid=09cbfe&_nc_ohc=ng-xYjloGPkAX_ZKhWT&tn=6kKIPihabOxg3JdN&_nc_ht=scontent.fbog11-1.fna&oh=2d123f6b829b4e8220f18d39709833c3&oe=61345F7E"/>
+                    <img src="https://scontent.fbog11-1.fna.fbcdn.net/v/t1.6435-9/125785291_1039251483259001_5348325783076106879_n.jpg?_nc_cat=106&ccb=1-4&_nc_sid=8bfeb9&_nc_ohc=LPMaaGLNsI0AX_qld6U&_nc_ht=scontent.fbog11-1.fna&oh=49b2ac94937aa9256936b3fd341ff1bd&oe=6131B83C">
+                <footer>
+                    <p>Comentarios (7)</p>
+                </footer>
+                <address>
+                    <a href="https://www.facebook.com/brayancorreasd">Visita mi facebook Brayan Correa </a>
+                </address>
+            </article>
+            <article>
+                <hgroup>
+                    <h2>Titulo articulo 2</h1>
+                    <h1>Subtitulo del segundo articulo</h2>
+                </hgroup>
+               
+                <time datetime="07-08-2021">Publicado 06-08-2021</time>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium,
+                    minus alias. Eum quia aperiam, similique recusandae reiciendis dignissimos!
+                    Est et quas ab accusantium sint deleniti ducimus expedita odio velit saepe.
+                </p>
+
+                    <img src="Imagenes/Novia.jpg"/>
+
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+                <address>
+                    <a href="https://www.facebook.com/michell.moya.988">Visita eñ facebook de mi novia Michell Moya</a>
+                </address>
+                
+            </article>
+        </section>
+
+        <aside>
+            <blockquote cite="https://www.facebook.com/brayancorreasd">
+                Mensaje 1
+            </blockquote>
+
+            <blockquote cite="https://www.facebook.com/michell.moya.988">
+                Mensaje 2
+            </blockquote>
+
+        </aside>
+
+        <footer>
+           Derechos Reservados 2010-2021
+        </footer>
+    </body>
+</html>
